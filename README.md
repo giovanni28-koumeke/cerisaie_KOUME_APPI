@@ -1,4 +1,4 @@
-🏕️ Système de Gestion de Camping - La Cerisaie
+                                                             🏕️ Système de Gestion de Camping - La Cerisaie
 
 📌 Présentation du Projet
 Ce projet est une solution digitale développée en langage C pour automatiser la gestion quotidienne du camping "La Cerisaie". Il permet de gérer efficacement le parc d'emplacements, les tarifs et les séjours des clients, remplaçant ainsi les anciens processus manuels.
@@ -58,9 +58,10 @@ Prérequis
 Un compilateur C (GCC recommandé).
 
 Compilation
-Ouvrez votre terminal dans le dossier du projet et tapez :
+Ouvrez votre terminal dans le dossier du projet et tapez : gcc main.c typeEmplacement.c emplacement.c -o camping
 
 Exécution
+
 📜 Principes de Codage Appliqués
 Zéro Sauts Brusques : Aucune utilisation de break, continue ou return à l'intérieur des boucles pour garantir une logique fluide.
 
@@ -68,6 +69,8 @@ Documentation : Chaque bloc de code (if, while, fonctions) est commenté pour fa
 
 Gestion des Fichiers : Utilisation du mode binaire (rb, wb) pour l'intégrité des données.
 
-👥 Auteur
+👥 Auteur 
+
   KOUMEKE Koami Simon Giovanni
+  
   APPIAH Kwame Nana Ayete Samuel
