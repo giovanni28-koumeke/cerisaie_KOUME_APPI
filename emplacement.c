@@ -1,11 +1,19 @@
+/*
+*File name : emplacement.c
+*perpose : fichier d'impléméntation des fonctions
+*Authors : KOUMEKE Giovanni & APPIAH Samuel
+*Created : 13/O2/2026
+*Update : 14/02/2026
+*/
+
 #include <stdio.h>
 #include "emplacement.h"
 #include "typeEmplacement.h"
 
-/* ===================================================
+/* 
    Fonction : ajouterEmplacement
    Rôle : Ajouter un nouvel emplacement
-   =================================================== */
+*/
 void ajouterEmplacement() {
 
     FILE *f = fopen("emplacements.dat", "rb+");
@@ -42,13 +50,13 @@ void ajouterEmplacement() {
 
     fclose(f);
 }
-/* ================= FIN ajouterEmplacement ================= */
+/*  FIN ajouterEmplacement  */
 
 
-/* ===================================================
+/* 
    Fonction : modifierEmplacement
    Rôle : Modifier un emplacement existant
-   =================================================== */
+*/
 void modifierEmplacement() {
 
     FILE *f = fopen("emplacements.dat", "rb+");
@@ -84,13 +92,13 @@ void modifierEmplacement() {
         fclose(f);
     }
 }
-/* ================= FIN modifierEmplacement ================= */
+/*  FIN modifierEmplacement  */
 
 
-/* ===================================================
+/* 
    Fonction : supprimerEmplacement
    Rôle : Suppression logique
-   =================================================== */
+*/
 void supprimerEmplacement() {
 
     FILE *f = fopen("emplacements.dat", "rb+");
@@ -117,13 +125,13 @@ void supprimerEmplacement() {
         fclose(f);
     }
 }
-/* ================= FIN supprimerEmplacement ================= */
+/*  FIN supprimerEmplacement  */
 
 
-/* ===================================================
+/* 
    Fonction : afficherEmplacements
    Rôle : Afficher tous les emplacements
-   =================================================== */
+*/
 void afficherEmplacements() {
 
     FILE *f = fopen("emplacements.dat", "rb");
@@ -148,13 +156,13 @@ void afficherEmplacements() {
         fclose(f);
     }
 }
-/* ================= FIN afficherEmplacements ================= */
+/*  FIN afficherEmplacements  */
 
 
-/* ===================================================
+/* 
    Fonction : attribuerEmplacement
    Rôle : Trouver un emplacement libre
-   =================================================== */
+*/
 void attribuerEmplacement() {
 
     FILE *f = fopen("emplacements.dat", "rb+");
@@ -195,13 +203,13 @@ void attribuerEmplacement() {
         fclose(f);
     }
 }
-/* ================= FIN attribuerEmplacement ================= */
+/*  FIN attribuerEmplacement  */
 
 
-/* ===================================================
+/* 
    Fonction : libererEmplacement
    Rôle : Remettre un emplacement en libre
-   =================================================== */
+*/
 void libererEmplacement() {
 
     FILE *f = fopen("emplacements.dat", "rb+");
@@ -228,13 +236,13 @@ void libererEmplacement() {
         fclose(f);
     }
 }
-/* ================= FIN libererEmplacement ================= */
+/*  FIN libererEmplacement */
 
 
-/* ===================================================
+/* 
    Fonction : listeParType
    Rôle : Afficher les emplacements d’un type
-   =================================================== */
+*/
 void listeParType() {
 
     FILE *f = fopen("emplacements.dat", "rb");
@@ -261,13 +269,13 @@ void listeParType() {
         fclose(f);
     }
 }
-/* ================= FIN listeParType ================= */
+/* FIN listeParType  */
 
 
-/* ===================================================
+/* 
    Fonction : rechercheTechnique
    Rôle : Recherche par surface et capacite
-   =================================================== */
+*/
 void rechercheTechnique() {
 
     FILE *f = fopen("emplacements.dat", "rb");
@@ -299,4 +307,4 @@ void rechercheTechnique() {
         fclose(f);
     }
 }
-/* ================= FIN rechercheTechnique ================= */
+/* FIN rechercheTechnique  */
