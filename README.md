@@ -1,11 +1,13 @@
-                                                             🏕️ Système de Gestion de Camping - La Cerisaie
+ 🏕️ Système de Gestion de Camping - La Cerisaie
 
 📌 Présentation du Projet
+
 Ce projet est une solution digitale développée en langage C pour automatiser la gestion quotidienne du camping "La Cerisaie". Il permet de gérer efficacement le parc d'emplacements, les tarifs et les séjours des clients, remplaçant ainsi les anciens processus manuels.
 
 Ce travail a été réalisé dans le cadre d'un projet académique visant à mettre en pratique les concepts de modularisation, de structures de données et de manipulation de fichiers binaires à accès direct.
 
 🚀 Fonctionnalités Implémentées
+
 1. Fonctionnalité : Initialisation et Persistance
 Cette fonctionnalité assure la rapidité des recherches demandée par l'énoncé.
 
@@ -42,6 +44,7 @@ Module de Liste par Type : Affiche tous les emplacements appartenant à une cat�
 Module de Recherche Technique : Permet de trouver un emplacement selon des critères de surface ou de capacité maximale
 
 🛠 Architecture Technique
+
 Le projet suit une approche modulaire pour garantir un code propre et maintenable :
 
 typeEmplacement.h / .c : Gère le référentiel des catégories (Tente, Bungalow, etc.) et les prix.
@@ -51,9 +54,11 @@ emplacement.h / .c :  Gère les caractéristiques physiques des terrains.
 main.c : Orchestre le menu principal et le flux de données.
 
 📊 Jeu d'Essai (Données de Test)
+
 Pour tester le programme, : nous avons préparer un jeu d'éssai que se trouve dans un autre fichier.
 
 💻 Installation et Utilisation
+
 Prérequis
 Un compilateur C (GCC recommandé).
 
@@ -63,6 +68,7 @@ Ouvrez votre terminal dans le dossier du projet et tapez : gcc main.c typeEmplac
 Exécution
 
 📜 Principes de Codage Appliqués
+
 Zéro Sauts Brusques : Aucune utilisation de break, continue ou return à l'intérieur des boucles pour garantir une logique fluide.
 
 Documentation : Chaque bloc de code (if, while, fonctions) est commenté pour faciliter la lecture.
