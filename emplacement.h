@@ -1,3 +1,11 @@
+/*
+*File name : emplacement.h
+*perpose : fichier  de déclaration des prototypes des fonctions
+*Authors : KOUMEKE Giovanni & APPIAH Samuel
+*Created : 13/O2/2026
+*Update : 14/02/2026
+*/
+
 #ifndef EMPLACEMENT_H
 #define EMPLACEMENT_H
 
